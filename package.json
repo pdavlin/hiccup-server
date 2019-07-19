@@ -1,11 +1,11 @@
 {
-  "name": "go-server",
+  "name": "hiccup-server",
   "version": "0.0.1",
   "description": "A URL expander for local networks",
   "main": "index.ts",
   "scripts": {
     "test": "npm run test",
-    "go": "sudo tsc index.ts; sudo node index.js"
+    "hiccup": "sudo tsc index.ts; sudo node index.js"
   },
   "author": "Patrick Davlin",
   "license": "ISC",
