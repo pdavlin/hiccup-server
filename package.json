@@ -1,0 +1,20 @@
+{
+  "name": "go-server",
+  "version": "0.0.1",
+  "description": "A URL expander for local networks",
+  "main": "index.ts",
+  "scripts": {
+    "test": "npm run test",
+    "go": "sudo tsc index.ts; sudo node index.js"
+  },
+  "author": "Patrick Davlin",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.0",
+    "express": "^4.17.1",
+    "mariadb": "^2.1.0"
+  },
+  "devDependencies": {
+    "tslint": "^5.18.0"
+  }
+}
