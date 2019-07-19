@@ -32,7 +32,7 @@ app.get("*", (req, res) => {
         if (result !== null) {
             res.redirect(result);
         } else {
-            res.send("nothing here yet!");
+            res.sendFile("/home/pi/go-server/templates/noRoute.html");
         }
     });
 });
