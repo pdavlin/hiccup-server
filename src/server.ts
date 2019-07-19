@@ -2,12 +2,12 @@
 // -- imports --
 import express = require("express");
 import mariadb = require("mariadb");
-import Secrets = require("./Secrets");
+// import Secrets = require("./Secrets");
 
 // -- configuration --
 const app: express.Application = express();
 const port = 80;
-const secrets = new Secrets();
+// const secrets = new Secrets();
 const pool = mariadb.createPool({
     database: "hiccup",
     socketPath: "/run/mysqld/mysqld.sock",
